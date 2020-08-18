@@ -1,3 +1,15 @@
+## About this project
+The aim of this project is demo a full-stack solution using Python  Flask as backend and VueJS as frontend and deployment using AWS Beanstalk.
+
+As this project progresses, I will be using pytest framework for unit testing the backend whilst using Cypress to perform end-to-end tests.
+
+## Compiling Front End
+1. Go to user_interface_in_vue directory
+```
+npm install
+npm run build
+``` 
+
 ## Deployment Guide on AWS Elastic Beanstalk
 
 ### Pre-requisites:
@@ -7,7 +19,7 @@
 ### Setting Up on First Setup:
 1. Navigate to the root of project, in terminal ```eb init``` and following the prompts
 2. In terminal ```eb create``` to setup your application and env in the cloud, this might take 5+ minutes on initial configuration
-3. Edit your code manually and when you are ready to deploy, in terminal ```eb deploy```
+3. Transpile your VueJS the run ```eb deploy```
 
 ### Setting Up SSL/TLS Certificate
 1. Pre-requisite that you have your own domain name
