@@ -3,6 +3,9 @@ The aim of this project is demo a full-stack solution using Python  Flask as bac
 
 As this project progresses, I will be using pytest framework for unit testing the backend whilst using Cypress to perform end-to-end tests.
 
+## Deployed in
+https://awsbeanstalk.paulpatena.com/#/
+
 ## Compiling Front End
 1. Go to user_interface_in_vue directory
 ```
