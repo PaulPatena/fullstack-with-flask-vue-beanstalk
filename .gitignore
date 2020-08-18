@@ -6,3 +6,5 @@
 
 # python 3.7.3 virtualenv 
 my_venv/**
+.idea/**
+dist/**
