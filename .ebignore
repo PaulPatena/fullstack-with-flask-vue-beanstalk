@@ -2,3 +2,4 @@ my_venv
 .git
 .idea
 user_interface_in_vue
+*.pyc*.pyc

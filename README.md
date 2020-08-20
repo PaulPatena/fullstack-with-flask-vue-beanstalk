@@ -6,6 +6,14 @@ As this project progresses, I will be using pytest framework for unit testing th
 ## Deployed in
 https://awsbeanstalk.paulpatena.com/#/
 
+## Requirements
+1. The user should be able to see his task list, a maximum of 10 entries. Button to "add new card" should be disabled when number of entries reach ten.
+2. The text area should automatically grow, the data on a text-area should automatically be saved when it comes out of focus.
+
+## Architectural Decisions
+1. When running the UI in debug mode, you need to configure that API requests goes to your debug server port and when in production, api requests should be directed to the actual server. This is done by using the .env files in the Vue project. 
+2. When running the backend server in debug mode, its is being served at port 5000 whilst we expect that the debug UI is running at port 8080, we need to enable CORS only during debugging so that in-flight requests from UI won't be blocked by browser.
+
 ## Compiling Front End
 1. Go to user_interface_in_vue directory
 ```

@@ -8,3 +8,4 @@
 my_venv/**
 .idea/**
 dist/**
+*.pyc
